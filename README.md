@@ -1,12 +1,38 @@
-# React + Vite
+# QR App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[Открыть приложение](https://deathfrontdev.github.io/qr-app/)
 
-Currently, two official plugins are available:
+## 📌 Описание
+QR App — это веб-приложение для генерации и сканирования QR-кодов.  
+Оно позволяет создавать QR-коды по введенному тексту или ссылке, а также сканировать QR-коды с камеры устройства или загруженных изображений.  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Все сгенерированные и отсканированные QR-коды сохраняются в историю в браузере, чтобы вы могли вернуться к ним позже.  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Функции
+- **Генерация QR-кодов** из любого текста или ссылки  
+- **Сканирование QR-кодов** через камеру устройства  
+- **Сканирование QR-кодов** из загруженного изображения  
+- **История генераций** с возможностью повторного открытия  
+- **История сканирований** с быстрым доступом к содержимому  
+- **Открытие ссылок** напрямую из QR-кода  
+- Удобный, современный дизайн с анимацией и адаптацией под мобильные устройства  
+
+---
+
+## 🛠️ Технологии
+- **React** — фронтенд-фреймворк  
+- **Vite** — быстрый инструмент сборки  
+- **Tailwind CSS** — стилизация интерфейса  
+- **qrcode.react** — библиотека для генерации QR-кодов  
+- **jsQR** — библиотека для распознавания QR-кодов  
+- **LocalStorage** — хранение истории прямо в браузере  
+
+---
+
+## 📦 Установка и запуск
+1. Клонировать репозиторий:
+   ```bash
+   git clone https://github.com/deathfrontdev/qr-app.git
+   cd qr-app
